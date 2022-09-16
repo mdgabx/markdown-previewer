@@ -5,6 +5,9 @@ $blue: #141e30;
 $navy: #243b55;
 $text-color: #fff;
 $font-style: 'Merriweather', serif;
+$text-font: 'Oxygen', sans-serif;
+$text-black: #000;
+$title-con: #00BFFF;
 
 html {
     height: 100%;
@@ -14,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(120deg, $blue, $navy);
+    color: $text-color;
 
     .container {
 
@@ -22,6 +26,33 @@ body {
             color: $text-color;
             font-size: 4em;
             font-weight: 800;
+        }
+
+        .main-content {
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            flex-direction: row;
+
+        }
+
+        .main-container {
+            color: $text-black;
+            font-family: $text-font;
+            margin: 0;
+            padding: 0;
+
+            .title-con {
+                background-color: $title-con !important;
+                padding: 5px 12px 5px 12px;
+                font-size: 20px;
+            }
+
+            textarea {
+                all: unset;
+                height: 380px;
+                padding-top: 10px;
+            }
         }
     }
 }
