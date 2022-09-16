@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+$blue: #141e30;
+$navy: #243b55;
+$text-color: #fff;
+$font-style: 'Merriweather', serif;
+
+html {
+    height: 100%;
+} 
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, $blue, $navy);
+
+    .container {
+
+        h1 {
+            font-family: $font-style;
+            color: $text-color;
+            font-size: 4em;
+            font-weight: 800;
+        }
+    }
+}
+
+
+
+
