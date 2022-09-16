@@ -42,11 +42,15 @@ body {
             font-family: $text-font;
             margin: 0;
             padding: 0;
+            border-radius: 5px;
 
             .title-con {
                 background-color: $title-con !important;
                 padding: 5px 12px 5px 12px;
                 font-size: 20px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                
             }
 
             textarea {
