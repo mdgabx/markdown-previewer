@@ -1,2 +1,2 @@
 # wdbsa-markdown-previewer
-FreeCodeCamp markdown previewer
+freeCodeCamp markdown previewer challenge
