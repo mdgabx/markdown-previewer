@@ -21,7 +21,7 @@ body {
 
     .container {
 
-        h1 {
+        .head {
             font-family: $font-style;
             color: $text-color;
             font-size: 4em;
@@ -31,8 +31,9 @@ body {
         .main-content {
             display: flex;
             align-items: stretch;
-            justify-content: center;
+            justify-content: space-between;
             flex-direction: row;
+            margin: 2em;
 
         }
 
@@ -49,9 +50,21 @@ body {
             }
 
             textarea {
-                all: unset;
+                outline: none;
+                border: none;
                 height: 380px;
-                padding-top: 10px;
+                padding: 10px;
+            }
+
+            #preview {
+                height: 390px;
+                padding: 10px;
+                color: #000;
+                overflow: auto;
+            }
+
+            #preview img {
+                max-width: 100%;
             }
         }
     }
