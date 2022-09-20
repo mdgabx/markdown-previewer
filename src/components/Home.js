@@ -71,6 +71,9 @@ class Home extends Component {
                     </div>
                     </div>
                 </div>
+                <div className="text-center my-2 py-2">
+                    <p>Get the source code <a rel="nofollow noreferrer" href="https://github.com/wdbsa/markdown-previewer" target="_blank">here</a></p>
+                </div>     
             </div>
         )
     }
